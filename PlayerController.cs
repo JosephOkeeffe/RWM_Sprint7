@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
 	public float speed = 8f;
-	public string branch = "main";
+	public string branch = "b";
+
 
 	void Update()
 	{
