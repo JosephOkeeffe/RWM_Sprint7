@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 	public float speed = 12f;
+	public string branch = "a";
 
 	void Update()
 	{
