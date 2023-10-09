@@ -1,0 +1,21 @@
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+<<<<<<< HEAD
+
+	public float speed = 8f;
+	public string branch = "b";
+=======
+	public float speed = 8f;
+>>>>>>> cdf06bc6d8c0f73579834bc99ed3cd64094ff1d1
+
+	void Update()
+	{
+    	float moveHorizontal = Input.GetAxis("Horizontal");
+    	float moveVertical = Input.GetAxis("Vertical");
+
+    	Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+    	transform.Translate(movement * speed * Time.deltaTime);
+	}
+}
